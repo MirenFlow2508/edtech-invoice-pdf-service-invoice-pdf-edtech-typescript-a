@@ -1,0 +1,14 @@
+{
+  "name": "edtech-invoice-pdf-service",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "example": "node --experimental-strip-types src/run_invoice.ts",
+    "test": "node --experimental-strip-types --test src/invoice_service.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.7.0"
+  }
+}
